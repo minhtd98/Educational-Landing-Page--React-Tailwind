@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
-import { AiFillCalculator, AiOutlineMenu } from "react-icons/ai";
+import { AiOutlineMenu } from "react-icons/ai";
 
 const Navbar = () => {
   const [menu, setMenu] = useState(false);
 
-  const handleChangle = () => {
+  const handleChange = () => {
     setMenu(!menu);
   };
 
@@ -65,7 +65,7 @@ const Navbar = () => {
           </Link>
         </nav>
 
-        <div className="flex md:hidden" onClick={handleChangle}>
+        <div className="flex md:hidden" onClick={handleChange}>
           <div className="p-2">
             <AiOutlineMenu size={22} />
           </div>
