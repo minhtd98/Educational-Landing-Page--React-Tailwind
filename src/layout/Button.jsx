@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Button = (props) => {
+const Button = (props) => {
   return (
     <div>
       <button className="bg-white py-2 px-5 rounded-full mt-4 outline hover:shadow-[0_3px_10px_rgb(0,0,0,0.2)] hover:bg-brightGreen hover:text-white transition-all">
@@ -9,3 +9,5 @@ export const Button = (props) => {
     </div>
   );
 };
+
+export default Button;
